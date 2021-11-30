@@ -26,6 +26,7 @@ PRODUCT_PACKAGES += \
     AOSPAThemePickerOverlay \
     FontHarmonySansOverlay \
     FontInterOverlay \
+    FontLinotteSourceOverlay \
     FontManropeOverlay \
     FontOppoSansOverlay \
     FontRobotoOverlay \
