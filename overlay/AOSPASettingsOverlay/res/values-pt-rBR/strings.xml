@@ -15,6 +15,12 @@
 -->
 <resources>
 
+    <!-- DPI Change -->
+    <string name="developer_smallest_width" msgid="632354817870920911">"Alterar DPI"</string>
+
+    <!-- Refresh Rate -->
+    <string name="peak_refresh_rate_title">Exibição Suave</string>
+
     <!-- Face unlock -->
     <string name="security_settings_face_enroll_consent_introduction_title">Permitir Desbloqueio facial</string>
     <string name="security_settings_face_enroll_dialog_ok">OK</string>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2021 Paranoid Android
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Paranoid Android version -->
+    <string name="aospa_version">Versão da Paranoid Android</string>
+
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controle de mídia</string>
+    <string name="volume_button_music_control_summary">Quando a tela estiver desligada, pressione e segure as teclas de volume para pular faixas de música</string>
+
+    <!-- Gestures Settings -->
+    <string name="offscreen_gesture_title">Gestos com a tela desligada</string>
+    <string name="offscreen_gesture_summary">Desenhe padrões na tela para executar ações</string>
+    <string name="keywords_gestures">tela toque desenhar deslizar dedo</string>
+
+    <string name="gestures_master">Usar gestos com a tela desligada</string>
+    <string name="gestures_disabled">Desativado</string>
+    <string name="gestures_wake_device">Ligar a tela do dispositivo</string>
+    <string name="gestures_pulse_ambient_display">Pulsar exibição ambiente</string>
+    <string name="gestures_toggle_flashlight">Ligar/Desligar lanterna</string>
+    <string name="gestures_toggle_airplane_mode">Ligar/Desligar modo avião</string>
+    <string name="gestures_play_pause_music">Reproduzir/Pausar música</string>
+    <string name="gestures_next_music">Próxima música</string>
+    <string name="gestures_previous_music">Música anterior</string>
+    <string name="gestures_open_camera">Abrir câmera</string>
+    <string name="gestures_open_dialer">Abrir discador</string>
+
+    <string name="gestures_double_tap">Toque duplo</string>
+    <string name="gestures_single_tap">Toque único</string>
+    <string name="gestures_draw_v">Desenhar V</string>
+    <string name="gestures_draw_inverse_v">Desenhar V inverso</string>
+    <string name="gestures_draw_o">Desenhar O</string>
+    <string name="gestures_draw_m">Desenhar M</string>
+    <string name="gestures_draw_w">Desenhar W</string>
+    <string name="gestures_draw_s">Desenhar S</string>
+    <string name="gestures_draw_arrow_left">Desenhar  &lt;</string>
+    <string name="gestures_draw_arrow_right">Desenhar  &gt;</string>
+    <string name="gestures_one_finger_swipe_up">Deslizar um dedo para cima</string>
+    <string name="gestures_one_finger_swipe_right">Deslizar um dedo para a direita</string>
+    <string name="gestures_one_finger_swipe_down">Deslizar um dedo para baixo</string>
+    <string name="gestures_one_finger_swipe_left">Deslizar um dedo para a esquerda</string>
+    <string name="gestures_two_finger_swipe">Deslizar dois dedos</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Deslize para capturar a tela</string>
+    <string name="three_finger_gesture_summary">Deslize três dedos na tela para realizar uma captura de tela</string>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Percorrer os modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Ligado (percorrer os modos)</string>
+
+    <!-- Volume link notification -->
+    <string name="ring_only_volume_option_title">Volume do toque</string>
+    <string name="volume_link_notification_title">Linkar volume do toque &amp; das notificações</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Som de captura de tela</string>
+    
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Reprodução inteligente</string>
+    <string name="adaptive_playback_disabled_summary">Desativado</string>
+    <string name="adaptive_playback_timeout_title">Tempo limite de</string>
+    <string name="adaptive_playback_timeout_none">Ilimitado</string>
+    <string name="adaptive_playback_timeout_none_summary">Ativado (sem limite de tempo)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Ativado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Ativado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Ativado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Ativado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Lanterna rápida</string>
+    <string name="power_button_torch_summary">Quando a tela estiver desligada, manter pressionado o botão de energia irá ativar a lanterna</string>
+
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Ícones da barra de status</string>
+    <string name="icon_manager_summary">Controlar a visibilide dos ícones na barra de status</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicativos em tela cheia</string>
+    <string name="display_cutout_force_fullscreen_summary">Forçar aplicativos a ignorar o espaço do entalhe</string>
+    <string name="search">Procurar</string>
+    <string name="search_apps">Procurar aplicativos</string>
+
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">Expandir configurações rápidas</string>
+    <string name="quick_settings_quick_pull_down_summary">Puxe para baixo a barra de status do lado direito para expandir as configurações rápidas</string>
+
+    <!-- Advanced Reboot -->
+    <string name="global_actions_advanced_reboot_title">Reinicialização avançada</string>
+    <string name="global_actions_advanced_reboot_summary">Exibir opções de reinicialização avançada no menu de energia</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Inverter layout da barra de navegação</string>
+    <string name="navbar_invert_info">Troque os botões \"Voltar\" e \"Recentes\" na barra de navegação</string>
+
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Barra de gestos</string>
+    <string name="show_navbar_gesture_bar_summary">Mostrar barra de gestos na parte inferior da tela</string>
+
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduz o cansaço visual em condições de pouca luz, minimizando a oscilação da tela. Pode resultar em qualidade de imagem reduzida e produção de cores insatisfatória ou maior consumo de energia.</string>
+    <string name="dc_dimming_main_switch_title">Usar DC Dimming</string>
+
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Usar tema preto</string>
+    <string name="system_black_theme_summary">Forçar cores de fundo pretas</string>
+
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignorar sinalizador seguro</string>
+    <string name="ignore_window_secure_summary">Remova os limites de captura de tela e gravação de tela para todos os aplicativos. Isso pode ser conveniente em alguns casos, mas pode levar a vazamentos de privacidade.</string>
+
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Mostrar sobreposição da área de transferência</string>
+    <string name="show_clipboard_overlay_summary">Mostrar uma sobreposição no canto inferior esquerdo da tela quando algo for copiado para a área de transferência</string>
+
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">Configurações adicionais</string>
+
+    <!-- QS footer data usage -->
+    <string name="qs_show_data_usage_title">Mostrar uso de dados</string>
+    <string name="qs_show_data_usage_summary">Mostrar uso diário de dados móveis/Wi-Fi no rodapé das configurações rápidas</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Indicador de bateria na barra de status</string>
+    <string name="battery_percent_summary">Configurar estilos de icone e texto para o indicador de bateria na barra de status</string>
+    <string name="status_bar_battery_style_title">Estilo do indicador</string>
+    <string name="status_bar_battery_style_icon_portrait">Icone Retrato (padrão)</string>
+    <string name="status_bar_battery_style_circle">Circulo</string>
+    <string name="status_bar_battery_style_dotted_circle">Circulo (Pontilhado)</string>
+    <string name="status_bar_battery_style_filled_circle">Circulo (Completo)</string>
+    <string name="status_bar_battery_style_text">Somente a porcentagem</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <string name="status_bar_battery_percentage_title">Indicador de porcentagem da bateria</string>
+    <string name="status_bar_battery_percentage_default">Oculto (Padrão)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do icone de bateria</string>
+    <string name="status_bar_battery_percentage_text_next">Próximo ao icone de bateria</string> 
+
+    <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">Desativar o 5G</string>
+    <string name="battery_saver_5g_summary">Desative o 5G para economizar energia quando a economia de bateria estiver ativada</string>
+
+    <!-- Lockscreen media art -->
+    <string name="lockscreen_media_art_category_title">Arte de mídia</string>
+    <string name="keygaurd_media_art_title">Exibit arte da capa de mídia</string>
+    <string name="keygaurd_media_art_summary">Mostrar a arte do álbum da mídia atual na tela de bloqueio</string>
+    <string name="lockscreen_media_blur_title">Nível de desfoque da arte de mídia</string>
+
+</resources>

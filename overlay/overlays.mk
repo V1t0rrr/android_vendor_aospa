@@ -17,11 +17,13 @@ PRODUCT_PACKAGES += \
     AOSPABlackThemeOverlay \
     AOSPAFrameworksOverlay \
     AOSPAImmersiveNavigationOverlay \
+    AOSPALauncherOverlay \
     AOSPASettingsOverlay \
     AOSPASettingsProviderOverlay \
     AOSPASystemUIOverlay \
     AOSPAWifiOverlay \
     FontGoogleSansLatoOverlay \
+    AOSPAThemePickerOverlay \
     FontHarmonySansOverlay \
     FontInterOverlay \
     FontManropeOverlay \
@@ -57,8 +59,7 @@ PRODUCT_PACKAGES += \
     IconPackRoundedLauncherOverlay \
     IconPackRoundedSettingsOverlay \
     IconPackRoundedSystemUIOverlay \
-    IconPackRoundedThemePickerOverlay \
-    ParanoidLauncherOverlay
+    IconPackRoundedThemePickerOverlay
 
 # Pixel Launcher
 ifeq ($(INCLUDE_PIXEL_LAUNCHER),true)
