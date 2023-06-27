@@ -59,6 +59,13 @@ PRODUCT_PACKAGES += \
     IconPackRoundedThemePickerOverlay \
     ParanoidLauncherOverlay
 
+# Pixel Launcher
+ifeq ($(INCLUDE_PIXEL_LAUNCHER),true)
+PRODUCT_PACKAGES += \
+    NexusLauncherOverlay \
+    PixelLauncherConfigOverlay
+endif
+
 # Translation Overlays
 PRODUCT_PACKAGES += \
     AOSPAFrameworksTranslation \
