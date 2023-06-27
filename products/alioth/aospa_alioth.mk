@@ -35,4 +35,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
 
+INCLUDE_PIXEL_LAUNCHER := true
+
 endif
