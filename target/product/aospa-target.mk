@@ -28,6 +28,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.config.media_vol_steps=30
 
+# Blur
+ifeq ($(TARGET_USES_BLUR), true)
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.sf.blurs_are_expensive=1 \
+    ro.surface_flinger.supports_background_blur=1
+endif
+
 # Boot Animation
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
