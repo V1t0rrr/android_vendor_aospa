@@ -17,6 +17,9 @@
             System
         -->
 
+        <!-- Enable protected by android banner -->
+        <item>privacy/safety_protection_enabled=true</item>
+
         <!-- Nexus (Pixel) Launcher -->
         <item>launcher/ENABLE_QUICK_LAUNCH_V2=true</item>
 	<item>launcher/GBOARD_UPDATE_ENTER_KEY=true</item>
@@ -35,6 +38,10 @@
         <item>device_personalization_services/Overview__enable_proactive_hints=false</item>
         <item>device_personalization_services/Overview__enable_superpacks_pir_protocol=true</item>
         <item>device_personalization_services/Overview__min_lens_agsa_app_version=301084649</item>
+        <!-- Disable federated learning -->
+        <item>device_personalization_services/OverviewFederatedAnalytics__enable_fa=false</item>
+        <item>device_personalization_services/OverviewFederatedAnalytics__enable_min_training_interval=false</item>
+        <item>device_personalization_services/OverviewFederatedAnalytics__enable_non_synthetic_logs=false</item>
 
     </string-array>
 </resources>
