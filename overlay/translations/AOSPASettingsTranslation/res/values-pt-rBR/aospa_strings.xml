@@ -104,5 +104,18 @@
     <string name="ring_vibration_pattern_title">Padrão de vibração do toque</string>
     <string name="pattern_default">Padrão do dispositivo</string>
     <string name="smart_5g_title">Smart 5G</string>
-    <string name="smart_5g_summary">Troca automaticamente do 5G para o 4G para reduzir o consumo de bateria</string>
+    <string name="smart_5g_summary">Trocar automaticamente do 5G para o 4G para reduzir o consumo de bateria</string>
+    <string name="battery_percent_title">Indicador de bateria da barra de status</string>
+    <string name="battery_percent_summary">Definir estilos de ícone para o indicador de bateria da barra de status</string>
+    <string name="status_bar_battery_style_title">Estilo de indicador de bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Retrato</string>
+    <string name="status_bar_battery_style_circle">Circulo</string>
+    <string name="status_bar_battery_style_dotted_circle">Circulo pontilhado</string>
+    <string name="status_bar_battery_style_filled_circle">Circulo completo</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <string name="status_bar_battery_percentage_title">Estilo de indicador de porcentagem da bateria</string>
+    <string name="status_bar_battery_percentage_default">Oculto</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+    <string name="status_bar_battery_percentage_text_next">Próximo ao ícone</string>
 </resources>
