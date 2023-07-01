@@ -13,13 +13,14 @@
 # limitations under the License.
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
-    vendor/aospa/sepolicy/private
+    vendor/aospa/sepolicy/private \
+    vendor/aospa/sepolicy/common/private
 
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
-    vendor/aospa/sepolicy/public
+    vendor/aospa/sepolicy/public \
+    vendor/aospa/sepolicy/common/public
 
 BOARD_VENDOR_SEPOLICY_DIRS += \
+    vendor/aospa/sepolicy/common/dynamic \
+    vendor/aospa/sepolicy/common/vendor \
     vendor/aospa/sepolicy/vendor
-
-BOARD_VENDOR_SEPOLICY_DIRS += \
-    vendor/aospa/sepolicy/common/dynamic
