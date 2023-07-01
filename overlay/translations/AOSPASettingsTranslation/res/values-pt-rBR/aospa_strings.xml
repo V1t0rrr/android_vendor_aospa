@@ -121,6 +121,4 @@
     <string name="lockscreen_media_art_title">Exibir a arte do álbum na tela de bloqueio</string>
     <string name="hide_developer_status_title">Esconder as opções de desenvolvedor</string>
     <string name="hide_developer_status_summary">Esconder as opções de desenvolvedor dos aplicativos</string>
-    <string name="search">Pesquisar</string>
-    <string name="search_apps">Pesquisar aplicativos</string>
 </resources>
