@@ -3,19 +3,18 @@
 hidl_interface {
     name: "vendor.aospa.touch@1.0",
     root: "vendor.aospa",
+    system_ext_specific: true,
     srcs: [
         "types.hal",
         "IGloveMode.hal",
+        "IHighTouchPollingRate.hal",
         "IKeyDisabler.hal",
+        "IKeySwapper.hal",
         "IStylusMode.hal",
         "ITouchscreenGesture.hal",
     ],
     interfaces: [
         "android.hidl.base@1.0",
     ],
-    types: [
-        "Gesture",
-    ],
     gen_java: true,
 }
-
