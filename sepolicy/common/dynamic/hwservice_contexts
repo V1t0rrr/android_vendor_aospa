@@ -1,0 +1,4 @@
+vendor.aospa.touch::IGloveMode                     u:object_r:hal_aospa_touch_hwservice:s0
+vendor.aospa.touch::IKeyDisabler                   u:object_r:hal_aospa_touch_hwservice:s0
+vendor.aospa.touch::IStylusMode                    u:object_r:hal_aospa_touch_hwservice:s0
+vendor.aospa.touch::ITouchscreenGesture            u:object_r:hal_aospa_touch_hwservice:s0
