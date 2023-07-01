@@ -20,3 +20,6 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
 
 BOARD_VENDOR_SEPOLICY_DIRS += \
     vendor/aospa/sepolicy/vendor
+
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    vendor/aospa/sepolicy/common/dynamic
